@@ -1,0 +1,147 @@
+[01:04:33] [ServerMain/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[01:04:34] [ServerMain/WARN]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[01:04:34] [ServerMain/WARN]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[01:04:34] [ServerMain/WARN]: Disabling further attempts to query Paging File.
+[01:04:35] [ServerMain/WARN]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[01:04:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:04:39] [ServerMain/INFO]: Loaded 7 recipes
+[01:04:39] [ServerMain/INFO]: Loaded 1271 advancements
+[01:04:40] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[01:04:40] [Server thread/INFO]: Loading properties
+[01:04:40] [Server thread/INFO]: Default game type: SURVIVAL
+[01:04:40] [Server thread/INFO]: Generating keypair
+[01:04:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:04:40] [Server thread/INFO]: Using default channel type
+[01:04:40] [Server thread/INFO]: Preparing level "world"
+[01:04:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:04:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:04:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:04:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:04:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:04:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:04:43] [Worker-Main-11/INFO]: Preparing spawn area: 7%
+[01:04:44] [Server thread/INFO]: Time elapsed: 2995 ms
+[01:04:44] [Server thread/INFO]: Done (3.894s)! For help, type "help"
+[01:04:50] [Server thread/INFO]: /advancement (grant|revoke)
+[01:04:50] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[01:04:50] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[01:04:50] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[01:04:50] [Server thread/INFO]: /clear [<targets>]
+[01:04:50] [Server thread/INFO]: /clone (<begin>|from)
+[01:04:50] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[01:04:50] [Server thread/INFO]: /data (merge|get|remove|modify)
+[01:04:50] [Server thread/INFO]: /datapack (enable|disable|list)
+[01:04:50] [Server thread/INFO]: /debug (start|stop|function)
+[01:04:50] [Server thread/INFO]: /defaultgamemode <gamemode>
+[01:04:50] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[01:04:50] [Server thread/INFO]: /effect (clear|give)
+[01:04:50] [Server thread/INFO]: /me <action>
+[01:04:50] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[01:04:50] [Server thread/INFO]: /experience (add|set|query)
+[01:04:50] [Server thread/INFO]: /xp -> experience
+[01:04:50] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[01:04:50] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[01:04:50] [Server thread/INFO]: /forceload (add|remove|query)
+[01:04:50] [Server thread/INFO]: /function <name> [<arguments>|with]
+[01:04:50] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[01:04:50] [Server thread/INFO]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[01:04:50] [Server thread/INFO]: /give <targets> <item> [<count>]
+[01:04:50] [Server thread/INFO]: /help [<command>]
+[01:04:50] [Server thread/INFO]: /item (replace|modify)
+[01:04:50] [Server thread/INFO]: /kick <targets> [<reason>]
+[01:04:50] [Server thread/INFO]: /kill [<targets>]
+[01:04:50] [Server thread/INFO]: /list [uuids]
+[01:04:50] [Server thread/INFO]: /locate (structure|biome|poi)
+[01:04:50] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[01:04:50] [Server thread/INFO]: /msg <targets> <message>
+[01:04:50] [Server thread/INFO]: /tell -> msg
+[01:04:50] [Server thread/INFO]: /w -> msg
+[01:04:50] [Server thread/INFO]: /particle <name> [<pos>]
+[01:04:50] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[01:04:50] [Server thread/INFO]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[01:04:50] [Server thread/INFO]: /random (value|roll|reset)
+[01:04:50] [Server thread/INFO]: /reload
+[01:04:50] [Server thread/INFO]: /recipe (give|take)
+[01:04:50] [Server thread/INFO]: /return (<value>|fail|run)
+[01:04:50] [Server thread/INFO]: /ride <target> (mount|dismount)
+[01:04:50] [Server thread/INFO]: /say <message>
+[01:04:50] [Server thread/INFO]: /schedule (function|clear)
+[01:04:50] [Server thread/INFO]: /scoreboard (objectives|players)
+[01:04:50] [Server thread/INFO]: /seed
+[01:04:50] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[01:04:50] [Server thread/INFO]: /spawnpoint [<targets>]
+[01:04:50] [Server thread/INFO]: /setworldspawn [<pos>]
+[01:04:50] [Server thread/INFO]: /spectate [<target>]
+[01:04:50] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[01:04:50] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[01:04:50] [Server thread/INFO]: /summon <entity> [<pos>]
+[01:04:50] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[01:04:50] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[01:04:50] [Server thread/INFO]: /teammsg <message>
+[01:04:50] [Server thread/INFO]: /tm -> teammsg
+[01:04:50] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[01:04:50] [Server thread/INFO]: /tp -> teleport
+[01:04:50] [Server thread/INFO]: /tellraw <targets> <message>
+[01:04:50] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
+[01:04:50] [Server thread/INFO]: /time (set|add|query)
+[01:04:50] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[01:04:50] [Server thread/INFO]: /trigger <objective> [add|set]
+[01:04:50] [Server thread/INFO]: /weather (clear|rain|thunder)
+[01:04:50] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[01:04:50] [Server thread/INFO]: /jfr (start|stop)
+[01:04:50] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[01:04:50] [Server thread/INFO]: /banlist [ips|players]
+[01:04:50] [Server thread/INFO]: /ban <targets> [<reason>]
+[01:04:50] [Server thread/INFO]: /deop <targets>
+[01:04:50] [Server thread/INFO]: /op <targets>
+[01:04:50] [Server thread/INFO]: /pardon <targets>
+[01:04:50] [Server thread/INFO]: /pardon-ip <target>
+[01:04:50] [Server thread/INFO]: /perf (start|stop)
+[01:04:50] [Server thread/INFO]: /save-all [flush]
+[01:04:50] [Server thread/INFO]: /save-off
+[01:04:50] [Server thread/INFO]: /save-on
+[01:04:50] [Server thread/INFO]: /setidletimeout <minutes>
+[01:04:50] [Server thread/INFO]: /stop
+[01:04:50] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[01:05:38] [User Authenticator #1/INFO]: UUID of player Docblizard is f4061ed6-6a69-4bb5-8617-6adc9124a46c
+[01:05:38] [Server thread/INFO]: Docblizard[/127.0.0.1:51308] logged in with entity id 222 at (4.5, 70.0, -0.5)
+[01:05:38] [Server thread/INFO]: Docblizard joined the game
+[01:05:42] [Server thread/INFO]: Docblizard lost connection: Disconnected
+[01:05:42] [Server thread/INFO]: Docblizard left the game
+[01:05:55] [User Authenticator #2/INFO]: UUID of player Docblizard is f4061ed6-6a69-4bb5-8617-6adc9124a46c
+[01:05:55] [Server thread/INFO]: Docblizard[/127.0.0.1:51318] logged in with entity id 244 at (4.5, 70.0, -0.5)
+[01:05:55] [Server thread/INFO]: Docblizard joined the game
+[01:05:57] [Server thread/INFO]: Docblizard lost connection: Disconnected
+[01:05:57] [Server thread/INFO]: Docblizard left the game
+[01:06:08] [User Authenticator #3/INFO]: UUID of player Docblizard is f4061ed6-6a69-4bb5-8617-6adc9124a46c
+[01:06:08] [Server thread/INFO]: Docblizard[/[0:0:0:0:0:0:0:1]:51327] logged in with entity id 261 at (4.5, 70.0, -0.5)
+[01:06:08] [Server thread/INFO]: Docblizard joined the game
+[01:07:11] [User Authenticator #4/INFO]: UUID of player Wosan is 6e405045-fb3b-484b-99c3-d20e7b4b6cea
+[01:07:12] [Server thread/INFO]: Wosan[/[0:0:0:0:0:0:0:1]:51364] logged in with entity id 545 at (-9.5, 92.0, -3.5)
+[01:07:12] [Server thread/INFO]: Wosan joined the game
+[01:07:38] [Server thread/INFO]: Docblizard has made the advancement [Monster Hunter]
+[01:08:31] [Server thread/INFO]: Wosan has made the advancement [Monster Hunter]
+[01:08:51] [Server thread/INFO]: Wosan was slain by Zombie
+[01:08:57] [Server thread/INFO]: Docblizard was slain by Zombie
+[01:09:00] [Server thread/WARN]: Docblizard moved too quickly! 33.19626897715881,-20.0,-18.96196749177957
+[01:12:16] [Server thread/INFO]: Docblizard has made the advancement [Stone Age]
+[01:12:18] [Server thread/INFO]: Wosan has made the advancement [Stone Age]
+[01:12:59] [Server thread/INFO]: Docblizard has made the advancement [Getting an Upgrade]
+[01:21:51] [Server thread/INFO]: Wosan has made the advancement [Getting an Upgrade]
+[01:39:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4030ms or 80 ticks behind
+[01:43:06] [Server thread/INFO]: Docblizard has made the advancement [Acquire Hardware]
+[01:43:40] [Server thread/INFO]: Docblizard has made the advancement [Isn't It Iron Pick]
+[01:44:05] [Server thread/INFO]: Wosan has made the advancement [Isn't It Iron Pick]
+[02:09:20] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-11, y=72, z=33} hx{x=-11, y=72, z=32}
+[02:09:20] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-11, y=72, z=33} hx{x=-11, y=72, z=32}
+[02:09:46] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-6, y=71, z=32} hx{x=-7, y=71, z=32}
+[02:10:49] [Server thread/INFO]: Wosan has made the advancement [Acquire Hardware]
+[02:10:54] [Server thread/INFO]: Docblizard has made the advancement [A Seedy Place]
+[02:13:34] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=19, y=67, z=-17} hx{x=17, y=66, z=-15}
+[02:24:17] [Server thread/INFO]: Docblizard lost connection: Disconnected
+[02:24:17] [Server thread/INFO]: Docblizard left the game
+[02:27:01] [Server thread/INFO]: Wosan lost connection: Disconnected
+[02:27:01] [Server thread/INFO]: Wosan left the game
+[02:27:14] [Server thread/INFO]: Saving is already turned on
+[02:27:19] [Server thread/INFO]: Saving the game (this may take a moment!)
+[02:27:19] [Server thread/INFO]: Saved the game
